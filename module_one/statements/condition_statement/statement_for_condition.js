@@ -52,6 +52,10 @@ switch (days){
         break
     case "Tuesday":
         console.log("Second day of the week");
+        break
+    case "Wednesday":
+        console.log("Third day of the week");
+        break
     default:
         console.log("No days off")
 }
