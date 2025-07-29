@@ -33,7 +33,7 @@ function fixBirdCountLog(birdPerDay){
 let birdsPerDay = [2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 3, 1, 3,4,2,4,2,4,2];
 
 console.log("1. Total birds counted:", totalBirdCount(birdsPerDay)); // ➜ 34
-console.log("2. Birds in week 2:", birdsInWeek(birdsPerDay, 3)); // ➜ 12
+console.log("2. Birds in week 3:", birdsInWeek(birdsPerDay, 3)); // ➜ 12
 
 let birdsPerDayWithMistake = [2, 5, 0, 7, 4, 1];
 console.log("3. Fixed bird count log:", fixBirdCountLog(birdsPerDayWithMistake)); 
