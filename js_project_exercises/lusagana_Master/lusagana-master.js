@@ -3,6 +3,7 @@ function cookingStatus(time){
         return "Lusagan is done!"
     }else if(0< time <= 12){
         return "Not done please wait.";
+        
     }else{
         return " you do not set time";
     }
